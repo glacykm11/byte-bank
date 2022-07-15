@@ -2,11 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { NovaTransferenciaComponent } from './nova-transferencia/nova-transferencia.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [		
+    AppComponent,
+    NovaTransferenciaComponent,
+   ],
   imports: [
     BrowserModule
   ],
