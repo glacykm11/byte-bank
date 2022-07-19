@@ -12,5 +12,5 @@ export class NovaTransferenciaComponent implements OnInit {
 
   transferir() {
     console.log('Solicitada nova transferência');
-  }
+  } 
 }
